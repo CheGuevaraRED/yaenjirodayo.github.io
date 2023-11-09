@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>クイズ</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    ラーメン二郎クイズ
+    <div class="quiz-container">
+        <p class="quiz-number">第一問</p>
+        <img id="quiz-image" src="yaen.jpg" alt="">
+        <div class="options">
+            <button onclick="checkAnswer('A')">1.上野毛店</button>
+            <button onclick="checkAnswer('B')">2.八王子野猿街道店2</button>
+            <button onclick="checkAnswer('C')">3.三田本店</button>
+            <button onclick="checkAnswer('D')">4.京急川崎店</button>
+            <p id="explanation"></p>
+            <p id="image"></p>
+        </div>
+        
+        
+        <?php
+        for($i=1;$i<5;$i++){
+           <div class="options">
+            
+               <p id="explanation"></p>
+           </div>
+        <?php}?>
+        
+        
+    </div>
+    <p id="result"></p>
+    <script src="script.js"></script>
+</body>
+</html>
