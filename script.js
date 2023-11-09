@@ -18,7 +18,7 @@ const quizData = [
             D: "ラーメン二郎越谷店"
         },
         correct: "C",
-        explanation: "解説:カウンターの色を見れば一発！"
+        explanation: "解説:この中でカウンターの色が黄色なのは野猿だけ"
     },
     {
         id: "02",
@@ -31,7 +31,7 @@ const quizData = [
             D: "ラーメン二郎会津若松店"
         },
         correct: "A",
-        explanation: "解説:湘南藤沢を選んだ人は惜しい、カウンターの色が違うね！"
+        explanation: "解説:湘南藤沢も似ているが、カウンターの色が違う"
     },
     {
         id:"03",
@@ -44,7 +44,7 @@ const quizData = [
             D: "ラーメン二郎亀戸店"
         },
         correct: "B",
-        explanation: "解説:仙川ブラック！独特のアブラでわかるよね？"
+        explanation: "解説:仙川はアブラが特徴的"
     },
     {
         id:"04",
@@ -57,7 +57,7 @@ const quizData = [
             D: "ラーメン二郎小岩店"
         },
         correct: "A",
-        explanation: "解説:スープのブラック具合でわからなきゃだめ！"
+        explanation: "解説:上野毛といえば醤油に近い黒いスープ"
     },
     {
         id:"05",
@@ -70,7 +70,7 @@ const quizData = [
             D: "ラーメン二郎神田神保町店"
         },
         correct: "D",
-        explanation: "解説:レベルの高い合格点を超える二郎オールウェイズ出してくれる"
+        explanation: "解説:レベルの高い合格点を超える二郎オールウェイズ出してくれるのはJBC"
     },
     
 ];
@@ -166,7 +166,7 @@ function showQuizResult() {
     questionElement.textContent = "クイズ終了";
     optionsContainer.innerHTML = "";
     resultElement.textContent = "正解数: " + score + " / " + quizData.length;
-    explanationElement.textContent = "当然全問正解しなければいけない。今回は初心者向けの問題なので間違えた問題があった場合にはどうして間違えたのか分析してよく復習すること.";
+    explanationElement.textContent = "今回は初心者向けの問題なので間違えてしまった場合はよく復習しておくこと.";
     imageElement.src = ""; // 画像を非表示にする
     nextButton.style.display = "none"; // 「次へ」ボタンを非表示
 }
