@@ -167,7 +167,7 @@ function showQuizResult() {
     optionsContainer.innerHTML = "";
     resultElement.textContent = "正解数: " + score + " / " + quizData.length;
     explanationElement.textContent = "今回は初心者向けの問題なので間違えてしまった場合はよく復習しておくこと.";
-    imageElement.src = ""; // 画像を非表示にする
+    imageElement.src = "oyaji.jpg"; // 画像を非表示にする
     nextButton.style.display = "none"; // 「次へ」ボタンを非表示
 }
 
