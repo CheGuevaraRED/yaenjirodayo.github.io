@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+
+.quiz-number{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.quiz-container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
