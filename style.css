@@ -1,17 +1,20 @@
 body {
+    font-weight: bold;
     text-align: center;
-    font-size: 25px;
+    font-size: 50px;
     font-family: Arial, sans-serif;
+    color: rgb(200, 3, 3)
 }
 
 .quiz-number{
     font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    color:black
 }
 
 .quiz-container {
-    margin: 20px auto;
+    margin: 50px auto;
     max-width: 600px;
 }
 
